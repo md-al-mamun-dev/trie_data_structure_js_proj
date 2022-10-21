@@ -1,4 +1,4 @@
-# SpellChecker using trie Data Structure in JavaScript
+# SpellChecker using Trie Data Structure in JavaScript
 # 
 # Topic related 
     1. Programming Language: JavaScript
