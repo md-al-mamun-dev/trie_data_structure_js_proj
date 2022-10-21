@@ -1,7 +1,5 @@
-# Trie Data structure Project (JavaScript)
-
-
-
+# SpellChecker using trie Data Structure in JavaScript
+# 
 # Topic related 
     1. Programming Language: JavaScript
     2. Data Structure - trie
