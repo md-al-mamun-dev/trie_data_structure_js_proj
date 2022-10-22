@@ -27,6 +27,5 @@ This project contain some functions, which is deal with trie data structure usin
       Parameters (2) 
          a. word (mendatory)
          b. array (optional)
-   functionality
-        This addWord() function will destructure the word into trie data nodes of each alphabet of that word,
-        optionaly take an array, this array could be an empty array or any array previously keept any word destructured into trie data structured 
+  Functionality
+    This addWord() function will destructure the word into trie data nodes of each alphabet of that word. it optionaly take an array, this array could be an empty array or any array previously keept any word destructured into trie data structured in the same way.
