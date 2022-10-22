@@ -24,7 +24,7 @@ This project contain some functions, which is deal with trie data structure usin
   
   
    # 1. addWord()
-     # Parameters (2) 
+      Parameters (2) 
          a. word (mendatory)
          b. array (optional)
    functionality
