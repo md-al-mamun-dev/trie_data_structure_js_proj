@@ -30,3 +30,8 @@ This project contain some functions, which is deal with trie data structure usin
   Functionality
   ===
  This addWord() function will destructure the word into trie data nodes of each alphabet of that word. it optionaly take an array, this array could be an empty array or any array previously keept any word destructured into trie data structured in the same way.
+ 
+  # addWordFrmString()
+      Parameters (2) 
+         a. text / string (i.e A complete sentence) - (mendatory)
+         b. array (optional)
