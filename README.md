@@ -41,6 +41,7 @@ This funciton will destructure the words into tri data structured (i.e - store w
          
       Dependency 
          a. addWord() function
+         b. Global Variabls 
 
   Functionality
   ===
@@ -64,4 +65,59 @@ This funciton will destructure the words into tri data structured (i.e - store w
  for those difference there is a slite difference of working performance between two function
  
       "  addWordFromStringFunc() function is recommended to use  "
+      
+   isExist() 
+   ==
+       Parameters (2) 
+         a. word - (a single word)
+         b. array - of trie data structure (optional)
+       Dependency 
+         a. array 
+         b. Global Variabls
+         
+Functionality
+  ===
+  isExit() function take a word as input parameter, return boolean value wheather the word is exist into the array or not exist 
+  input parameter array is optional, but if the array does not given to the second parameter, the function will search the word inside default array, 
+  if the input prameter is given, the function will search the value inside the array has given as prameter, not into the default array of the application. 
+  return value - true means the word is exist, and false means the word is not exist. 
   
+   deleteWord()
+   ==
+       Parameters (2) 
+         a. word - (a single word)
+         b. array - of trie data structure (optional)
+       Dependency 
+         a. array 
+         b. Global Variabls
+ 
+Functionality
+===
+  deleteWord() function take a word as first parameter, and delete it from the array, 
+  but not from the original array, it simply just copy an array then delete word from that array, and finally return that array. 
+  if the optional second parameter is given the delete functionality workd accroding to that array. and if no parameter is given it take default array as the parameter. 
+  
+   extractWord() & extractWordsFunc()
+   ==
+       Parameters  (1) 
+         a. array - of trie data structure (optional)
+       Dependency 
+         a. array 
+         b. Global Variabls
+
+Functionality
+===
+  accroding to result both function will return same result
+both extractWord() and extractWordsFunc() functions pull out all word from trie data structured array, optionaly it take an array as input parameter, 
+if the parameter is given - the funciton will look for the all word from that array, if not given the function will look for words from default array
+those function will return a single dimention array of every word destructured into the array of trie data structure. The returnd array will sorted alphabetically  
+
+ extractWord() vs extractWordsFunc()
+ ==
+ accroding to result both function has no difference 
+ but there is a slight differece,
+ - the extractWord() use JavaScript for loop for iterating into each word
+ - the extractWordsFunc() use new JS ES6 map() function for iteration, 
+ for those difference there is a slite difference of working performance between two function
+ 
+      "  extractWordsFunc() function is recommended to use  "  - as it will perform better. 
