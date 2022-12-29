@@ -125,7 +125,7 @@ extractWord() vs extractWordsFunc()
       
 findWordFrmPrefix() & findSafxFrmPrefixFunc()
 ==
-       Parameters  (1) 
+       Parameters  (2) 
          a. Prefix of any word (mendatory)
          b. array - of trie data structure (optional)
        Dependency 
