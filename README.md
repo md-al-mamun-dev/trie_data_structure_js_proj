@@ -20,7 +20,6 @@ This project contain some functions, which is deal with trie data structure usin
     9. findSafxFrmPrefix()
     10. findSafxFrmPrefixFunc()
     11. findWordFrmPrefixFunc()
-    12. findWordFrmPrefixFunc()
   
   
    # addWord()
@@ -112,8 +111,10 @@ both extractWord() and extractWordsFunc() functions pull out all word from trie 
 if the parameter is given - the funciton will look for the all word from that array, if not given the function will look for words from default array
 those function will return a single dimention array of every word destructured into the array of trie data structure. The returnd array will sorted alphabetically  
 
- extractWord() vs extractWordsFunc()
- ==
+extractWord() vs extractWordsFunc()
+==
+ Functionality
+ ===
  accroding to result both function has no difference 
  but there is a slight differece,
  - the extractWord() use JavaScript for loop for iterating into each word
@@ -121,3 +122,18 @@ those function will return a single dimention array of every word destructured i
  for those difference there is a slite difference of working performance between two function
  
       "  extractWordsFunc() function is recommended to use  "  - as it will perform better. 
+      
+findWordFrmPrefix() & findSafxFrmPrefixFunc()
+==
+       Parameters  (1) 
+         a. Prefix of any word (mendatory)
+         b. array - of trie data structure (optional)
+       Dependency 
+         a. array 
+         b. Global Variabls
+ Functionality
+ ===
+  Both function will give the same result, but works differently accroding to their functionality
+  recommend to use "" findSafxFrmPrefixFunc() ""
+  takes input of prefix of any word in the first peremeter, 
+optionally takes array as second argument of the function, if second peremeter is provided, the function will look for the word inside this argument, not into the global array, if the second peremeter is not given, the function will look for word of having that prefix into the default array storage of word of trie data structure. 
